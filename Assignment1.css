@@ -1,13 +1,20 @@
-*{
+/* *{
     margin: 0%;
     padding: 0%;
+} */
+.head #logo{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 10px;
 }
 
-#head{
+.head{
     text-align: center;
     text-decoration: black;
-    font-family: Arial, Helvetica, sans-serif;  
-    list-style-image: url('/home/ashwini/WebDevelopment-1/images/company.png');  
+    font-family: Arial, Helvetica, sans-serif; 
+    position: relative;
+     
 }
 #subhead{
     font-family: Arial, Helvetica, sans-serif;
@@ -17,6 +24,7 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
+    padding: 16px;
 }
 .survey{
     font-size: 14px;
