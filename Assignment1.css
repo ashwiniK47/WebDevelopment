@@ -69,18 +69,13 @@ body{
     color: #555;
 }
 #branding h1{
-    text-align: center;
+    display: inline;
     color: black;
-    position: relative;
+    margin: 0;
 }
 #branding img{
-    display: inline;
     height: 50px;
     width: 50px;
-    position: absolute;
-    left: 30%;
-    /* left: 10px;
-    top: 10px;*/
 } 
 
 label{
