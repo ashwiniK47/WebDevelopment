@@ -1,0 +1,19 @@
+.flex-container{
+    width: 80%;
+    height: 400px;
+    background-color: chocolate;
+    display: flex;
+    /* flex-direction: row-reverse;
+    flex-wrap:wrap-reverse; */
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+    align-content:  ;
+}
+div{
+    background-color: brown;
+    padding: 8px;
+    margin: 16px;
+    height: 20px;
+    border: darksalmon 2px solid;
+}
