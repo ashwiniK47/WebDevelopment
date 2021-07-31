@@ -1,0 +1,112 @@
+/* .flex-container{
+    width: 80%;
+    height: 400px;
+    background-color: chocolate;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap:wrap-reverse; 
+    flex-flow: row-reverse wrap-reverse;
+    justify-content: space-around;
+    align-items: center;
+}
+div{
+    background-color: brown;
+    padding: 8px;
+    margin: 16px;
+    height: 20px;
+    border: darksalmon 2px solid;
+} */
+/* 
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+}
+.container{
+    margin: 10px;  
+    display: flex;
+    flex-direction: row;  
+    justify-content: space-between;
+    align-items: flex-start;
+    box-sizing: border-box;
+}
+.container input,select{
+    flex-basis: 2;
+}
+.container label{
+    flex-basis: 1;
+    background-color: black;
+}
+.container input[type="submit"]{
+    background: transparent;
+    border: 1px whitesmoke solid;
+    border-radius: 5px;
+    text-align: center;
+    padding: 0 20px;
+    color: whitesmoke;
+}
+
+.right-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+} */
+
+html{
+    height: 100%;
+}
+body{
+    background-image: linear-gradient(to top right, #229ae0, #65d2e6);
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+    margin: 20px 80px;
+}
+.container{ 
+    display: flex;
+    flex-direction: row;
+}
+.left-box{
+    flex: 1; 
+    margin: 10px 0;
+    padding: 6px;
+}
+.right-box{
+    flex: 3;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 10px 0;
+}
+.right-box-1{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.container input[type="submit"]{
+    background: transparent;
+    border: 1px whitesmoke solid;
+    border-radius: 8px;
+    margin: 40px auto    ;
+    padding: 5px 15px;
+}
+#button:hover{
+    background: #e2dfdf;
+    color: #229ae0;
+}
+input{
+     border-radius: 4px;
+     border: 1px solid #229ae0; 
+     padding: 6px;
+     margin: 0 5px;
+}
+select{
+     border-radius: 4px;
+     border: 1px solid #229ae0; 
+     padding: 6px; 
+     margin: 0 5px;
+}
