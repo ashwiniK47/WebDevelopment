@@ -52,11 +52,12 @@ input[type="text"]:hover{
 #buttons input{
     padding: 10px 20px;
     margin-right: 10px;
-    border: none;
-    border-radius: 2px;
+    border: 2px solid transparent;
+    border-radius: 4px;
 }
 input[type="button"]:hover{
     cursor: pointer;
+    border: 2px solid black;
 }   
 #lang{
     margin-top: 35px;
